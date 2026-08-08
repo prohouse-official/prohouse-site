@@ -1,0 +1,44 @@
+name: Apply Pro House local SEO expansion
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "tools/apply_local_seo_2026_08.py.gz.b64"
+      - ".github/workflows/apply-local-seo-2026-08.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout website
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Decode and apply SEO update
+        run: |
+          base64 --decode tools/apply_local_seo_2026_08.py.gz.b64 | gzip --decompress > /tmp/apply_local_seo_2026_08.py
+          python /tmp/apply_local_seo_2026_08.py
+
+      - name: Remove one-time updater
+        run: |
+          rm -f tools/apply_local_seo_2026_08.py.gz.b64
+          rm -f .github/workflows/apply-local-seo-2026-08.yml
+          rmdir tools 2>/dev/null || true
+
+      - name: Commit generated pages and homepage updates
+        run: |
+          git config user.name "Pro House SEO Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Expand local SEO for Jeddah, Makkah and Taif"
+          git push origin HEAD:main
