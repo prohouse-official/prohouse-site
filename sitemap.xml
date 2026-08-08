@@ -8,46 +8,17 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://prohouse.sa/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://prohouse.sa/"/>
   </url>
-  <url>
-    <loc>https://prohouse.sa/healthy-meals-jeddah/</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
-  <url>
-    <loc>https://prohouse.sa/meal-subscriptions-jeddah/</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
-  <url>
-    <loc>https://prohouse.sa/meal-subscriptions-makkah/</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
-  <url>
-    <loc>https://prohouse.sa/meal-subscriptions-taif/</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
-  <url>
-    <loc>https://prohouse.sa/menu/</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
-  <url>
-    <loc>https://prohouse.sa/branches/al-rawdah/</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
-  <url>
-    <loc>https://prohouse.sa/branches/al-shati/</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
-  <url>
-    <loc>https://prohouse.sa/guides/</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
-  <url>
-    <loc>https://prohouse.sa/guides/diet-meals-jeddah/</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
-  <url>
-    <loc>https://prohouse.sa/guides/healthy-meal-subscription-jeddah/</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+  <url><loc>https://prohouse.sa/healthy-meals-jeddah/</loc><lastmod>2026-08-08</lastmod></url>
+  <url><loc>https://prohouse.sa/meal-subscriptions-jeddah/</loc><lastmod>2026-08-08</lastmod></url>
+  <url><loc>https://prohouse.sa/meal-subscriptions-makkah/</loc><lastmod>2026-08-08</lastmod></url>
+  <url><loc>https://prohouse.sa/meal-subscriptions-taif/</loc><lastmod>2026-08-08</lastmod></url>
+  <url><loc>https://prohouse.sa/offers/3-chicken-meals-65/</loc><lastmod>2026-08-08</lastmod></url>
+  <url><loc>https://prohouse.sa/menu/</loc><lastmod>2026-08-08</lastmod></url>
+  <url><loc>https://prohouse.sa/branches/al-rawdah/</loc><lastmod>2026-08-08</lastmod></url>
+  <url><loc>https://prohouse.sa/branches/al-shati/</loc><lastmod>2026-08-08</lastmod></url>
+  <url><loc>https://prohouse.sa/guides/</loc><lastmod>2026-08-08</lastmod></url>
+  <url><loc>https://prohouse.sa/guides/diet-meals-jeddah/</loc><lastmod>2026-08-08</lastmod></url>
+  <url><loc>https://prohouse.sa/guides/healthy-meal-subscription-jeddah/</loc><lastmod>2026-08-08</lastmod></url>
   <url>
     <loc>https://prohouse.sa/en/</loc>
     <lastmod>2026-08-08</lastmod>
