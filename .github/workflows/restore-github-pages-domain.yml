@@ -1,0 +1,70 @@
+name: Restore GitHub Pages URL until custom domain is live
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/restore-github-pages-domain.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Restore the working GitHub Pages domain
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          old = "https://prohouse.sa"
+          new = "https://prohouse-sa.github.io"
+          allowed = {".html", ".xml", ".txt", ".js", ".json", ".md"}
+
+          changed = []
+          for path in Path('.').rglob('*'):
+              if not path.is_file():
+                  continue
+              if '.git' in path.parts or path.suffix.lower() not in allowed:
+                  continue
+              try:
+                  text = path.read_text(encoding='utf-8')
+              except UnicodeDecodeError:
+                  continue
+              updated = text.replace(old, new)
+              if updated != text:
+                  path.write_text(updated, encoding='utf-8')
+                  changed.append(str(path))
+
+          cname = Path('CNAME')
+          if cname.exists():
+              cname.unlink()
+              changed.append('CNAME (removed)')
+
+          print('Updated files:')
+          for item in changed:
+              print('-', item)
+          PY
+
+      - name: Remove one-time workflow
+        run: rm -f .github/workflows/restore-github-pages-domain.yml
+
+      - name: Commit corrected URLs
+        run: |
+          git config user.name "Pro House Site Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Use GitHub Pages URL until custom domain is active"
+          git push origin HEAD:main
