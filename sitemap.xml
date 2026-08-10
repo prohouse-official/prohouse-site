@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
   <url>
     <loc>https://prohouse.sa/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-08-10</lastmod>
     <xhtml:link rel="alternate" hreflang="ar" href="https://prohouse.sa/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://prohouse.sa/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://prohouse.sa/"/>
   </url>
-
-  <url>
-    <loc>https://prohouse.sa/menu/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
+  <url><loc>https://prohouse.sa/healthy-meals-jeddah/</loc><lastmod>2026-08-10</lastmod></url>
+  <url><loc>https://prohouse.sa/meal-subscriptions-jeddah/</loc><lastmod>2026-08-10</lastmod></url>
+  <url><loc>https://prohouse.sa/meal-subscriptions-makkah/</loc><lastmod>2026-08-10</lastmod></url>
+  <url><loc>https://prohouse.sa/meal-subscriptions-taif/</loc><lastmod>2026-08-10</lastmod></url>
+  <url><loc>https://prohouse.sa/offers/3-chicken-meals-65/</loc><lastmod>2026-08-10</lastmod></url>
+  <url><loc>https://prohouse.sa/offers/healthy-burger-rawdah/</loc><lastmod>2026-08-10</lastmod></url>
+  <url><loc>https://prohouse.sa/menu/</loc><lastmod>2026-08-10</lastmod></url>
+  <url><loc>https://prohouse.sa/branches/al-rawdah/</loc><lastmod>2026-08-10</lastmod></url>
+  <url><loc>https://prohouse.sa/branches/al-shati/</loc><lastmod>2026-08-10</lastmod></url>
+  <url><loc>https://prohouse.sa/guides/</loc><lastmod>2026-08-10</lastmod></url>
+  <url><loc>https://prohouse.sa/guides/diet-meals-jeddah/</loc><lastmod>2026-08-10</lastmod></url>
+  <url><loc>https://prohouse.sa/guides/healthy-meal-subscription-jeddah/</loc><lastmod>2026-08-10</lastmod></url>
   <url>
     <loc>https://prohouse.sa/en/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-08-10</lastmod>
     <xhtml:link rel="alternate" hreflang="ar" href="https://prohouse.sa/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://prohouse.sa/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://prohouse.sa/"/>
   </url>
-
 </urlset>
