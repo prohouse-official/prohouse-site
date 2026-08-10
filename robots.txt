@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://prohouse.sa/sitemap.xml
-Sitemap: https://prohouse-sa.github.io/sitemap.xml
