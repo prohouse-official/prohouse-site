@@ -4,222 +4,664 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>منيو برو هاوس جدة | الأسعار والسعرات والماكروز</title>
-<meta name="description" content="منيو برو هاوس جدة: فطور ورابات وسلطات ووجبات دجاج ولحم ومأكولات بحرية ومكرونة وحلويات ومشروبات، مع الأسعار والسعرات والماكروز.">
+<title>منيو برو هاوس الرسمي | الطلب المباشر والماكروز — جدة</title>
+<meta name="description" content="منيو برو هاوس جدة: فطور ورابات وسلطات ووجبات دجاج ولحم ومأكولات بحرية ومكرونة وحلويات ومشروبات، مع الأسعار والسعرات والماكروز وإمكانية الطلب المباشر.">
 <link rel="canonical" href="https://prohouse.sa/menu/">
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ar_SA">
 <meta property="og:site_name" content="Pro House | برو هاوس">
 <meta property="og:url" content="https://prohouse.sa/menu/">
-<meta property="og:title" content="منيو برو هاوس">
-<meta property="og:description" content="المنيو الرسمي كامل — الأسعار والسعرات والماكروز لكل صنف.">
-<meta property="og:image" content="https://prohouse.sa/assets/menu/page-01.jpg">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="منيو برو هاوس جدة">
-<meta name="twitter:description" content="الأسعار والسعرات والبروتين والكارب والدهون لأصناف برو هاوس.">
-<meta name="twitter:image" content="https://prohouse.sa/assets/menu/page-01.jpg">
+<meta property="og:title" content="منيو والطلب المباشر — برو هاوس">
+<meta property="og:description" content="المنيو الرسمي كامل مع إمكانية الطلب المباشر والتوصيل الفوري.">
+<meta property="og:image" content="../assets/menu/page-01.jpg">
 <meta name="theme-color" content="#F7DC4E">
-
-<!-- Official Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NGX6Q1TR8X"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-NGX6Q1TR8X');
-</script>
 
 <link rel="icon" href="../assets/brand/icon.png">
 <link rel="apple-touch-icon" href="../assets/brand/icon-large.png">
-<link rel="preload" as="image" href="../assets/menu/page-01.jpg" fetchpriority="high">
 
+<script src="https://cdn.tailwindcss.com"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700;800;900&display=swap">
+
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          sans: ['"IBM Plex Sans Arabic"', 'sans-serif'],
+          display: ['"Anton"', 'Impact', 'sans-serif']
+        },
+        colors: {
+          brand: {
+            yellow: '#F7DC4E',
+            yellowDeep: '#F5D01F',
+            dark: '#111111',
+            charcoal: '#1A1A1A',
+            cream: '#FFFCEF',
+            muted: '#5A5757',
+            line: '#E7E5DC'
+          }
+        }
+      }
+    }
+  }
+</script>
+
+<style>
+  body {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    background-color: #FAFAFA;
+    color: #111111;
+  }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+</style>
 </head>
-<body>
+<body class="bg-gray-50 text-gray-900 selection:bg-brand-yellow selection:text-black">
 
-<a class="skip" href="#main">تخطَّ إلى المحتوى</a>
-
-<header class="site-header">
-  <div class="wrap nav-bar">
-    <a class="brand" href="../" aria-label="برو هاوس — الصفحة الرئيسية">
-      <img src="../assets/brand/logo-on-light.png" alt="برو هاوس" width="85" height="56">
-    </a>
-    <nav class="nav-links" id="nav" aria-label="التنقل الرئيسي">
-      <a href="../">الرئيسية</a>
-      <a href="../#plans">الاشتراكات</a>
-      <a href="../#branches">الفروع</a>
-      <a href="../#reviews">التقييمات</a>
-      <a href="../#contact">التواصل</a>
-    </nav>
-    <div class="nav-actions">
-      <a class="lang-link" href="../en/" hreflang="en" lang="en">EN</a>
-      <a class="btn btn-yellow btn-sm" href="https://app.techrar.com/prohouse" target="_blank" rel="noopener">اطلب الآن</a>
-      <button class="nav-toggle" aria-label="القائمة" aria-expanded="false" aria-controls="nav">
-        <span></span><span></span><span></span>
-      </button>
+<!-- هيدر برو هاوس الرسمي المستنسخ بأناقة -->
+<header class="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-gray-200 shadow-xs">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between gap-4">
+    <div class="flex items-center gap-4">
+      <a href="../" class="flex items-center gap-2">
+        <img src="../assets/brand/logo-on-light.png" alt="برو هاوس" width="75" height="50" class="h-10 w-auto">
+      </a>
+      <div class="hidden sm:block border-r border-gray-200 pr-4">
+        <span class="text-xs font-bold text-gray-400 block">المنيو والطلب المباشر</span>
+        <span class="text-xs font-black text-gray-900">فرعا الروضة والشاطئ</span>
+      </div>
     </div>
+
+    <!-- محدد الفرع ونوع الطلب -->
+    <div class="flex items-center gap-2 bg-gray-100 p-1 rounded-xl text-xs font-bold">
+      <select id="branch-select" class="bg-white border border-gray-200 rounded-lg px-2.5 py-1.5 font-bold text-gray-800 focus:outline-none">
+        <option value="rawdah">📍 فرع الروضة (صاري)</option>
+        <option value="shatee">📍 فرع الشاطئ (الكورنيش)</option>
+      </select>
+      <div class="flex items-center bg-gray-200/70 p-0.5 rounded-lg">
+        <button id="btn-pickup" onclick="setOrderType('pickup')" class="px-3 py-1 rounded-md transition font-bold bg-white text-gray-900 shadow-xs">استلام</button>
+        <button id="btn-delivery" onclick="setOrderType('delivery')" class="px-3 py-1 rounded-md transition font-bold text-gray-500 hover:text-gray-900">توصيل</button>
+      </div>
+    </div>
+
+    <!-- زر السلة للجوال والشاشات الصغيرة -->
+    <button onclick="toggleMobileCart()" class="lg:hidden relative flex items-center gap-1.5 bg-brand-yellow text-brand-dark font-extrabold px-3.5 py-2 rounded-xl text-xs shadow-xs">
+      <span>🛒</span>
+      <span id="nav-cart-count" class="w-5 h-5 rounded-full bg-brand-dark text-white text-[11px] flex items-center justify-center font-black">0</span>
+    </button>
   </div>
 </header>
 
-<main id="main">
-
-  <div class="hero menu-hero">
-    <div class="blob hero-blob" aria-hidden="true"></div>
-    <div class="wrap" style="position:relative;z-index:1">
-      <span class="kicker">المنيو</span>
-      <h1 style="font-size:clamp(34px,5.6vw,60px);font-weight:800;line-height:1.12">
-        المنيو الرسمي
-      </h1>
-      <p style="margin-top:var(--s4);max-width:56ch;color:var(--muted);font-size:clamp(16px,1.9vw,19px)">
-        كل صنف بسعره وسعراته الحرارية والبروتين والكارب والدهون.
-        الأسعار بالريال السعودي — أسعار المطعم.
-      </p>
-      <div class="hero-cta" style="margin-top:var(--s5)">
-        <a class="btn btn-primary" href="https://app.techrar.com/prohouse" target="_blank" rel="noopener">
-          اطلب الآن
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M17 7H9M17 7v8" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </a>
-        <a class="btn btn-outline" href="https://iwtsp.com/966540024717" target="_blank" rel="noopener">اسأل على واتساب</a>
-      </div>
-    </div>
+<!-- تصنيف شريط الأقسام الأفقي للجوال -->
+<div class="lg:hidden sticky top-[65px] z-30 bg-white/90 backdrop-blur border-b border-gray-200 px-4 py-2.5 shadow-2xs">
+  <div class="flex gap-2 overflow-x-auto no-scrollbar" id="cat-pills-mobile">
+    <!-- يتم حقن الأزرار بالجافاسكريبت -->
   </div>
+</div>
 
+<!-- المحتوى الرئيسي بتخطيط ٣ أعمدة (3-Column Layout مثل دبوس) -->
+<main class="max-w-7xl mx-auto px-4 sm:px-6 py-8">
+  <div class="grid grid-cols-1 lg:grid-cols-[220px_1fr_340px] gap-8 items-start">
 
-  <!-- SEO-MENU-TEXT:START -->
-  <section class="band-cream">
-    <div class="wrap">
-      <div class="sec-head">
-        <span class="eyebrow">منيو مكتوب لمحركات البحث والزوار</span>
-        <h2 class="sec-title">أقسام منيو برو هاوس</h2>
-        <p class="sec-lede">يشمل المنيو أطباق الفطور والرابات، الساندويتشات، السلطات، وجبات الدجاج واللحم، المأكولات البحرية، المكرونة، الحلويات والمشروبات.</p>
+    <!-- العمود ١: قائمة الأقسام الجانبية (يمين في RTL) -->
+    <aside class="hidden lg:block sticky top-28 bg-white border border-gray-200/80 rounded-2xl p-4 shadow-xs">
+      <h3 class="text-gray-400 text-xs font-black tracking-wider uppercase mb-3 px-2">أقسام المنيو</h3>
+      <nav aria-label="أقسام المنيو">
+        <ul class="space-y-1" id="cat-nav-desktop">
+          <!-- يتم حقن روابط الأقسام بالجافاسكريبت -->
+        </ul>
+      </nav>
+
+      <div class="mt-6 pt-4 border-t border-gray-100 text-xs text-gray-500 space-y-2">
+        <div class="flex items-center gap-1.5 font-bold text-gray-800">
+          <span class="w-2 h-2 rounded-full bg-green-500"></span>
+          <span>الفرع مفتوح للطلبات</span>
+        </div>
+        <p class="text-[11px] text-gray-400">الأسعار شاملة ضريبة القيمة المضافة ١٥٪</p>
       </div>
-      <div class="grid grid-3" style="margin-top:var(--s6)">
-        <article class="card"><h3>وجبات البروتين</h3><p>أصناف دجاج ولحم وفيليه وسمك وسالمون وجمبري، مع السعرات والماكروز المعروضة في صفحات المنيو.</p></article>
-        <article class="card"><h3>الكارب والسلطات</h3><p>خيارات أرز وبطاطس ومكرونة وسلطات لتكوين وجبة تناسب يومك.</p></article>
-        <article class="card"><h3>طلب أو اشتراك</h3><p>اطلب وجبة فردية، أو انتقل إلى صفحة الاشتراكات لمعرفة الباقات المتاحة.</p><p style="margin-top:var(--s4)"><a href="../healthy-meals-jeddah/">وجبات صحية في جدة</a> · <a href="../meal-subscriptions-jeddah/">الاشتراكات</a></p></article>
-      </div>
-    </div>
-  </section>
-  <!-- SEO-MENU-TEXT:END -->
+    </aside>
 
-  <section class="menu-pages-section">
-    <div class="wrap">
-      <p class="menu-hint">اضغط على أي صفحة لتكبيرها</p>
+    <!-- العمود ٢: تيار كروت المنتجات والأصناف (الوسط) -->
+    <section id="menu-feed" class="space-y-10 min-w-0">
+      <!-- يتم حقن كروت الوجبات كاملة من المنيو بالجافاسكريبت -->
+    </section>
 
-      <div class="menu-pages">
-        <a href="../assets/menu/page-01.jpg" target="_blank" rel="noopener"><img src="../assets/menu/page-01.jpg" alt="منيو برو هاوس — أطباق الفطور والرابات" width="1170" height="828" fetchpriority="high"></a>
-        <a href="../assets/menu/page-02.jpg" target="_blank" rel="noopener"><img src="../assets/menu/page-02.jpg" alt="منيو برو هاوس — ساندويتشات" width="1170" height="828" loading="lazy"></a>
-        <a href="../assets/menu/page-03.jpg" target="_blank" rel="noopener"><img src="../assets/menu/page-03.jpg" alt="منيو برو هاوس — السلطات" width="1170" height="828" loading="lazy"></a>
-        <a href="../assets/menu/page-04.jpg" target="_blank" rel="noopener"><img src="../assets/menu/page-04.jpg" alt="منيو برو هاوس — وجبات الدجاج" width="1170" height="828" loading="lazy"></a>
-        <a href="../assets/menu/page-05.jpg" target="_blank" rel="noopener"><img src="../assets/menu/page-05.jpg" alt="منيو برو هاوس — وجبات الدجاج" width="1170" height="828" loading="lazy"></a>
-        <a href="../assets/menu/page-06.jpg" target="_blank" rel="noopener"><img src="../assets/menu/page-06.jpg" alt="منيو برو هاوس — وجبات الدجاج والمكرونة" width="1170" height="828" loading="lazy"></a>
-        <a href="../assets/menu/page-07.jpg" target="_blank" rel="noopener"><img src="../assets/menu/page-07.jpg" alt="منيو برو هاوس — وجبات اللحم" width="1170" height="828" loading="lazy"></a>
-        <a href="../assets/menu/page-08.jpg" target="_blank" rel="noopener"><img src="../assets/menu/page-08.jpg" alt="منيو برو هاوس — المأكولات البحرية" width="1170" height="828" loading="lazy"></a>
-        <a href="../assets/menu/page-09.jpg" target="_blank" rel="noopener"><img src="../assets/menu/page-09.jpg" alt="منيو برو هاوس — الجمبري والمكرونة والبطاطس" width="1170" height="828" loading="lazy"></a>
-        <a href="../assets/menu/page-10.jpg" target="_blank" rel="noopener"><img src="../assets/menu/page-10.jpg" alt="منيو برو هاوس — الحلويات" width="1170" height="828" loading="lazy"></a>
-        <a href="../assets/menu/page-11.jpg" target="_blank" rel="noopener"><img src="../assets/menu/page-11.jpg" alt="منيو برو هاوس — الحلويات" width="1170" height="828" loading="lazy"></a>
-        <a href="../assets/menu/page-12.jpg" target="_blank" rel="noopener"><img src="../assets/menu/page-12.jpg" alt="منيو برو هاوس — الحلويات" width="1170" height="828" loading="lazy"></a>
-        <a href="../assets/menu/page-13.jpg" target="_blank" rel="noopener"><img src="../assets/menu/page-13.jpg" alt="منيو برو هاوس — المشروبات الساخنة والباردة" width="1170" height="828" loading="lazy"></a>
+    <!-- العمود ٣: سلة المشتريات الثابتة (يسار في RTL) -->
+    <aside class="hidden lg:block sticky top-28 bg-white border border-gray-200 rounded-2xl p-5 shadow-sm">
+      <div class="flex items-center justify-between pb-3 border-b border-gray-100 mb-4">
+        <div class="flex items-center gap-2">
+          <h3 class="font-extrabold text-base text-gray-900">سلة طلبك</h3>
+          <span id="cart-badge-count" class="bg-brand-yellow text-brand-dark px-2 py-0.5 rounded-full text-xs font-extrabold">0 أصناف</span>
+        </div>
+        <button onclick="clearCart()" class="text-xs text-gray-400 hover:text-red-600 font-bold transition">مسح</button>
       </div>
 
-      <p class="notice">
-        الأسعار بالريال السعودي وتمثل أسعار المطعم — قد تختلف على تطبيقات التوصيل.
-        القيم الغذائية تقديرية وقد تتغير حسب التحضير. للتأكد من توفر صنف معيّن،
-        <a href="https://iwtsp.com/966540024717" target="_blank" rel="noopener">راسلنا على واتساب</a>.
-      </p>
-
-      <div class="hero-cta" style="margin-top:var(--s6)">
-        <a class="btn btn-primary" href="https://app.techrar.com/prohouse" target="_blank" rel="noopener">
-          اطلب الآن من المتجر
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M17 7H9M17 7v8" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </a>
+      <!-- قائمة عناصر السلة -->
+      <div id="cart-items-desktop" class="max-h-[320px] overflow-y-auto space-y-3 mb-4 pr-1">
+        <div class="text-center py-12 text-gray-400">
+          <span class="text-3xl block mb-2">🥗</span>
+          <p class="font-bold text-xs">سلتك فارغة</p>
+          <p class="text-[11px] text-gray-400">اختر وجبتك المفضلة من المنيو لإضافتها</p>
+        </div>
       </div>
-    </div>
-  </section>
 
+      <!-- تفاصيل العميل والدفع -->
+      <div class="pt-4 border-t border-gray-100 space-y-3">
+        <div>
+          <label class="block text-[11px] font-bold text-gray-600 mb-1">الاسم الكريم</label>
+          <input type="text" id="cust-name-desk" placeholder="اسمك الكريم" class="w-full text-xs p-2.5 rounded-lg border border-gray-200 focus:outline-none focus:border-brand-dark">
+        </div>
+        <div>
+          <label class="block text-[11px] font-bold text-gray-600 mb-1">رقم الجوال</label>
+          <input type="tel" id="cust-phone-desk" placeholder="05xxxxxxxx" class="w-full text-xs p-2.5 rounded-lg border border-gray-200 focus:outline-none focus:border-brand-dark" dir="ltr">
+        </div>
+
+        <!-- الحساب المالي -->
+        <div class="pt-2 border-t border-gray-100 space-y-1.5 text-xs">
+          <div class="flex justify-between text-gray-500">
+            <span>المجموع:</span>
+            <span id="cart-subtotal-desk" class="font-bold">0.00 ﷼</span>
+          </div>
+          <div class="flex justify-between text-gray-500">
+            <span>الضريبة (١٥٪ مشمولة):</span>
+            <span id="cart-tax-desk" class="font-bold">0.00 ﷼</span>
+          </div>
+          <div class="flex justify-between text-base font-black text-gray-900 pt-1 border-t border-gray-100">
+            <span>الإجمالي:</span>
+            <span id="cart-total-desk" class="font-display font-black text-lg">0.00 ﷼</span>
+          </div>
+        </div>
+
+        <button onclick="submitOrder()" id="btn-submit-desk" class="w-full bg-brand-yellow hover:bg-brand-yellowDeep text-brand-dark font-black py-3 rounded-xl shadow-xs transition flex items-center justify-center gap-2 text-xs">
+          <span>إرسال الطلب لكاشير فودكس</span>
+        </button>
+      </div>
+    </aside>
+
+  </div>
 </main>
 
-<footer class="site-footer">
-  <div class="wrap">
-    <div class="footer-top">
-      <div>
-        <img src="../assets/brand/logo-on-dark.png" alt="برو هاوس" width="78" height="52" loading="lazy">
-        <p style="margin-top:var(--s4);color:rgba(255,255,255,.7);max-width:32ch">
-          مصدرك اليومي للتغذية النظيفة والمتوازنة.
-        </p>
-      </div>
-      <div>
-        <h4>روابط</h4>
-        <ul>
-          <li><a href="../">الرئيسية</a></li>
-          <li><a href="../#plans">الاشتراكات</a></li>
-          <li><a href="../#branches">الفروع</a></li>
-          <li><a href="../#privacy">الخصوصية</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>الطلب</h4>
-        <ul>
-          <li><a href="https://app.techrar.com/prohouse" target="_blank" rel="noopener">المتجر الإلكتروني</a></li>
-          <li><a href="https://apps.apple.com/sa/app/pro-house-%D8%A8%D8%B1%D9%88-%D9%87%D8%A7%D9%88%D8%B3/id6466739432?l=ar" target="_blank" rel="noopener">App Store</a></li>
-          <li><a href="https://play.google.com/store/apps/details?id=com.yumealz.prohouse" target="_blank" rel="noopener">Google Play</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>تواصل</h4>
-        <ul>
-          <li><a href="tel:+966540024717" dir="ltr">0540024717</a></li>
-          <li><a href="https://iwtsp.com/966540024717" target="_blank" rel="noopener">واتساب</a></li>
-          <li><a href="mailto:cs.prohouse@gmail.com">cs.prohouse@gmail.com</a></li>
-        </ul>
-      </div>
+<!-- شريط السلة العائم للجوال في الأسفل -->
+<div id="mobile-bottom-bar" class="lg:hidden fixed bottom-4 inset-x-4 z-40 hidden">
+  <button onclick="toggleMobileCart()" class="w-full bg-brand-dark text-white rounded-2xl p-4 shadow-xl flex items-center justify-between border border-gray-800">
+    <div class="flex items-center gap-2.5">
+      <span id="mobile-cart-badge" class="w-6 h-6 rounded-full bg-brand-yellow text-brand-dark font-black flex items-center justify-center text-xs">0</span>
+      <span class="font-bold text-xs">عرض سلة الطلب</span>
     </div>
-    <div class="footer-bottom">
-      <span>© <span id="year">2026</span> برو هاوس | Pro House</span>
-      <span>جدة، المملكة العربية السعودية</span>
-    </div>
-  </div>
-</footer>
+    <div id="mobile-cart-total-bar" class="text-brand-yellow font-display font-black text-base">0.00 ﷼</div>
+  </button>
+</div>
 
-<script src="../assets/main.js" defer></script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
+<!-- السلة الجانبية المنبثقة للجوال (Drawer) -->
+<div id="mobile-cart-backdrop" onclick="toggleMobileCart()" class="fixed inset-0 bg-black/50 z-50 opacity-0 pointer-events-none transition-opacity"></div>
+<aside id="mobile-cart-drawer" class="fixed top-0 bottom-0 left-0 w-full max-w-sm bg-white z-50 shadow-2xl flex flex-col -translate-x-full transition-transform duration-300">
+  <div class="p-4 border-b border-gray-100 flex items-center justify-between bg-gray-50">
+    <h3 class="font-extrabold text-sm text-gray-900">سلة مشترياتك</h3>
+    <button onclick="toggleMobileCart()" class="w-7 h-7 rounded-full bg-gray-200 text-gray-700 font-bold flex items-center justify-center">✕</button>
+  </div>
+  <div id="cart-items-mobile" class="flex-1 overflow-y-auto p-4 space-y-3">
+    <!-- قائمة السلة للجوال -->
+  </div>
+  <div class="p-4 border-t border-gray-100 bg-gray-50 space-y-3">
+    <div class="flex justify-between text-base font-black">
+      <span>الإجمالي:</span>
+      <span id="mobile-drawer-total" class="font-display font-black text-lg">0.00 ﷼</span>
+    </div>
+    <button onclick="submitOrder()" class="w-full bg-brand-yellow hover:bg-brand-yellowDeep text-brand-dark font-black py-3.5 rounded-xl shadow-sm text-xs">
+      إرسال الطلب لكاشير فودكس
+    </button>
+  </div>
+</aside>
+
+<!-- نافذة إشعار فودكس والطباعة -->
+<div id="receipt-modal" class="fixed inset-0 bg-black/70 z-50 flex items-center justify-center p-4 hidden">
+  <div class="bg-white rounded-3xl max-w-md w-full p-6 shadow-2xl border border-gray-100 max-h-[90vh] overflow-y-auto">
+    <div class="text-center mb-5">
+      <div class="w-12 h-12 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto text-xl mb-2 font-bold">✓</div>
+      <h3 class="font-extrabold text-lg text-gray-900">تم استلام الطلب في المطبخ!</h3>
+      <p class="text-xs text-gray-400">وصل الطلب مباشرة إلى شاشة كاشير ومطبخ فودكس</p>
+    </div>
+
+    <div class="bg-gray-50 border-2 border-dashed border-gray-300 rounded-2xl p-4 font-mono text-xs text-gray-800 space-y-2.5 mb-5">
+      <div class="text-center border-b border-gray-200 pb-2.5">
+        <p class="font-bold text-sm">مطعم برو هاوس — PRO HOUSE</p>
+        <p class="text-gray-500 text-[11px]" id="rcpt-branch">فرع الروضة — جدة</p>
+        <p class="font-bold text-blue-600 text-sm mt-1">رقم الطلب: <span id="rcpt-ref">PH-8921</span></p>
+        <p class="text-[10px] text-gray-400" id="rcpt-time">2026-08-20</p>
+      </div>
+
+      <div id="rcpt-items-list" class="space-y-1.5 border-b border-gray-200 pb-2.5"></div>
+
+      <div class="flex justify-between font-black text-sm pt-1">
+        <span>الإجمالي المدفوع:</span>
+        <span id="rcpt-total">0.00 ﷼</span>
+      </div>
+
+      <div class="bg-green-50 text-green-800 p-2 rounded-lg text-center text-[11px] font-sans font-bold">
+        🖨️ تمت طباعة التذكرة في المطبخ وجارٍ التجهيز
+      </div>
+    </div>
+
+    <button onclick="closeReceiptModal()" class="w-full bg-brand-dark text-white font-bold py-3 rounded-xl hover:bg-gray-800 transition text-xs">
+      إغلاق وبدء طلب جديد
+    </button>
+  </div>
+</div>
+
+<script src="../assets/foodics-engine.js"></script>
+<script>
+  // قائمة كافة أصناف المنيو الـ ١٣ كاملة مع الصور المقصوصة والماكروز
+  const FULL_PROHOUSE_MENU = [
     {
-      "@type": "WebPage",
-      "@id": "https://prohouse.sa/menu/#webpage",
-      "url": "https://prohouse.sa/menu/",
-      "name": "منيو برو هاوس جدة",
-      "description": "المنيو الرسمي لبرو هاوس مع الأسعار والسعرات والماكروز.",
-      "inLanguage": "ar",
-      "isPartOf": {
-        "@id": "https://prohouse.sa/#website"
-      }
+      id: 'cat_wraps',
+      name: 'أطباق الفطور والرابات',
+      items: [
+        { id: 'w_01', title: 'تورتيلا الدجاج المشوي', desc: 'صدر دجاج مقلي في القلاية الهوائية مع صوص الرانش الخاص، خس وجبنة لايت.', price: 19.00, calories: '385 سعرة', protein: '39g بروتين', carbs: '37g كارب', fat: '9g دهون', img: '../assets/menu/items/wrap_1.jpg' },
+        { id: 'w_02', title: 'تورتيلا الدجاج الديناميت', desc: 'صدر دجاج متبل ببهاراتنا الخاصة مع صوص الديناميت المميز، خس وجبنة لايت.', price: 19.00, calories: '385 سعرة', protein: '39g بروتين', carbs: '37g كارب', fat: '9g دهون', img: '../assets/menu/items/wrap_2.jpg' },
+        { id: 'w_03', title: 'شاورما الدجاج الصحية', desc: 'شاورما دجاج محضرة بطريقة برو هاوس الصحية مع صوصنا الخاص.', price: 19.00, calories: '398 سعرة', protein: '40g بروتين', carbs: '37g كارب', fat: '10g دهون', img: '../assets/menu/items/wrap_3.jpg' },
+        { id: 'w_04', title: 'إل ماتادور راب', desc: 'شرائح لحم تندرلوين مع فلفل رومي، خس، صوص مكسيكي وجبنة لايت.', price: 23.00, calories: '409 سعرة', protein: '36g بروتين', carbs: '37g كارب', fat: '13g دهون', img: '../assets/menu/items/wrap_4.jpg' },
+        { id: 'w_05', title: 'كلوب ساندوتش', desc: 'توست كلوب الصحي مع جبنة ومرتديلا قليلة الدسم.', price: 17.00, calories: '489 سعرة', protein: '22g بروتين', carbs: '35g كارب', fat: '29g دهون', img: '../assets/menu/items/wrap_5.jpg' },
+        { id: 'w_06', title: 'برو سموكد ساندوتش', desc: 'ساندوتش بنكهة مدخنة يجمع بين اللحم والبيض بتتبيلة مميزة.', price: 20.00, calories: '461 سعرة', protein: '27g بروتين', carbs: '41g كارب', fat: '21g دهون', img: '../assets/menu/items/wrap_6.jpg' }
+      ]
     },
     {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "الرئيسية",
-          "item": "https://prohouse.sa/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "المنيو",
-          "item": "https://prohouse.sa/menu/"
-        }
+      id: 'cat_sandwiches',
+      name: 'الساندوتشات والتوست',
+      items: [
+        { id: 's_01', title: 'كروك ديلوكس', desc: 'ساندوتش على الطريقة الفرنسية محضر بخلطتنا الصحية اللذيذة ومغطى بالجبن.', price: 21.00, calories: '488 سعرة', protein: '29g بروتين', carbs: '39g كارب', fat: '24g دهون', img: '../assets/menu/items/sandwich_1.jpg' },
+        { id: 's_02', title: 'ساندوتش التونة', desc: 'ساندوتش تونة غني بالبروتين وقليل السعرات الحرارية.', price: 17.00, calories: '326 سعرة', protein: '26g بروتين', carbs: '45g كارب', fat: '5g دهون', img: '../assets/menu/items/sandwich_2.jpg' },
+        { id: 's_03', title: 'توست الدجاج', desc: 'توست محمص مع صدر دجاج وخضار طازجة.', price: 15.00, calories: '439 سعرة', protein: '40g بروتين', carbs: '36g كارب', fat: '15g دهون', img: '../assets/menu/items/sandwich_3.jpg' },
+        { id: 's_04', title: 'صن رايز تركي', desc: 'ساندوتش بيض مع مرتديلا وجبنة لايت.', price: 19.00, calories: '471 سعرة', protein: '30g بروتين', carbs: '41g كارب', fat: '21g دهون', img: '../assets/menu/items/sandwich_4.jpg' }
+      ]
+    },
+    {
+      id: 'cat_salads',
+      name: 'السلطات الصحية',
+      items: [
+        { id: 'sal_01', title: 'سلطة برو هاوس', desc: 'خس ومكرونة مع خيار، طماطم، ذرة، بصل وصوص السيزر.', price: 17.00, calories: 'سلطة صحية', protein: 'غنية بالألياف', carbs: 'ماكروز متوازن', fat: 'دهون صحية', img: '../assets/menu/items/salad_1.jpg' },
+        { id: 'sal_02', title: 'سلطة تونة بالرانش', desc: 'خس، خيار، ذرة، زيتون، بصل، جبنة فيتا وصوص الرانش الكريمي.', price: 17.00, calories: 'سلطة بروتين', protein: 'تونة طازجة', carbs: 'خضار مشكلة', fat: 'صوص لايت', img: '../assets/menu/items/salad_2.jpg' },
+        { id: 'sal_03', title: 'سلطة الفيتا اليونانية', desc: 'خس ومكرونة مع ملفوف، جزر، خيار، طماطم، زيتون، جبنة فيتا وصوص سيزر.', price: 17.00, calories: 'طازجة يومياً', protein: 'فيتا يوناني', carbs: 'خضار صحية', fat: 'زيت زيتون', img: '../assets/menu/items/salad_3.jpg' },
+        { id: 'sal_04', title: 'سلطة كلاسيك إيطالية', desc: 'خس وملفوف وجزر مع خيار، طماطم كرزية، بصل وصوص إيطالي منعش.', price: 17.00, calories: 'قليلة السعرات', protein: 'فيتامينات', carbs: 'ألياف طبيعية', fat: 'خفيفة جداً', img: '../assets/menu/items/salad_4.jpg' },
+        { id: 'sal_05', title: 'سلطة باستا الدجاج', desc: 'جرجير وخس ومكرونة مع ذرة، قطع دجاج مشوي، جبنة فيتا وصوص سيزر.', price: 20.00, calories: 'وجبة متكاملة', protein: 'دجاج مشوي', carbs: 'باستا بر', fat: 'فيتا لايت', img: '../assets/menu/items/salad_5.jpg' },
+        { id: 'sal_06', title: 'سلطة سيزر كلاسيك', desc: 'سيزر كلاسيكية بخس طازج وصوص سيزر غني بنكهة لذيذة.', price: 20.00, calories: 'كلاسيكية', protein: 'دجاج وسيزر', carbs: 'خس طازج', fat: 'صوص مميز', img: '../assets/menu/items/salad_6.jpg' }
+      ]
+    },
+    {
+      id: 'cat_chicken',
+      name: 'وجبات الدجاج عالية البروتين',
+      items: [
+        { id: 'c_01', title: 'دجاج برجرات مع السبانخ', desc: 'كفتة دجاج طرية مغطاة بالسبانخ الطازجة على طريقة برو هاوس.', price: 27.00, calories: '444 سعرة', protein: '48g بروتين', carbs: '45g كارب', fat: '8g دهون', img: '../assets/menu/items/chicken_p4_1.jpg' },
+        { id: 'c_02', title: 'دجاج كرسبي صحي', desc: 'شرائح دجاج طرية ومقرمشة ومتبلة ببهاراتنا الخاصة.', price: 27.00, calories: '427 سعرة', protein: '41g بروتين', carbs: '50g كارب', fat: '7g دهون', img: '../assets/menu/items/chicken_p4_2.jpg' },
+        { id: 'c_03', title: 'دجاج صيني', desc: 'صدر دجاج على الطريقة الصينية محضر بصوص خاص ونكهة مميزة.', price: 27.00, calories: '427 سعرة', protein: '41g بروتين', carbs: '50g كارب', fat: '7g دهون', img: '../assets/menu/items/chicken_p4_3.jpg' },
+        { id: 'c_04', title: 'دجاج راجو', desc: 'قطع صدر دجاج بصوصنا الخاص وخضار طازجة.', price: 27.00, calories: '427 سعرة', protein: '44g بروتين', carbs: '47g كارب', fat: '7g دهون', img: '../assets/menu/items/chicken_p4_4.jpg' },
+        { id: 'c_05', title: 'دجاج باربكيو', desc: 'دجاج باربكيو مدخن على طريقة برو هاوس.', price: 28.00, calories: '427 سعرة', protein: '41g بروتين', carbs: '50g كارب', fat: '7g دهون', img: '../assets/menu/items/chicken_p4_5.jpg' },
+        { id: 'c_06', title: 'دجاج مشوي كلاسيك', desc: 'شرائح صدر دجاج مشوي بالتتبيلة التقليدية اللذيذة.', price: 28.00, calories: '431 سعرة', protein: '50g بروتين', carbs: '42g كارب', fat: '7g دهون', img: '../assets/menu/items/chicken_p4_6.jpg' },
+        { id: 'c_07', title: 'دجاج ديناميت', desc: 'دجاج مفعم بنكهة الديناميت والتوابل الشهية.', price: 27.00, calories: '437 سعرة', protein: '44g بروتين', carbs: '45g كارب', fat: '9g دهون', img: '../assets/menu/items/chicken_p5_1.jpg' },
+        { id: 'c_08', title: 'كبسة الدجاج', desc: 'صدر دجاج محضر بنكهة الكبسة السعودية الأصلية.', price: 27.00, calories: '444 سعرة', protein: '48g بروتين', carbs: '45g كارب', fat: '8g دهون', img: '../assets/menu/items/chicken_p5_2.jpg' },
+        { id: 'c_09', title: 'دجاج بالكاري', desc: 'قطع صدر دجاج على الطريقة الهندية لعشاق نكهة الكاري.', price: 27.00, calories: '437 سعرة', protein: '44g بروتين', carbs: '45g كارب', fat: '9g دهون', img: '../assets/menu/items/chicken_p5_3.jpg' },
+        { id: 'c_10', title: 'دجاج بالملوخية', desc: 'قطع دجاج مع ملوخية خضراء على الطريقة المصرية.', price: 27.00, calories: '433 سعرة', protein: '44g بروتين', carbs: '45g كارب', fat: '8.5g دهون', img: '../assets/menu/items/chicken_p5_4.jpg' },
+        { id: 'c_11', title: 'دجاج نابولي', desc: 'صدر دجاج بنكهة إيطالية ومذاق كريمي من جنوب إيطاليا.', price: 27.00, calories: '433 سعرة', protein: '44g بروتين', carbs: '45g كارب', fat: '8g دهون', img: '../assets/menu/items/chicken_p5_5.jpg' },
+        { id: 'c_12', title: 'دجاج ستروجانوف', desc: 'قطع صدر دجاج على الطريقة الروسية مع صوص ستروجانوف الكلاسيكي.', price: 27.00, calories: '433 سعرة', protein: '44g بروتين', carbs: '45g كارب', fat: '8.5g دهون', img: '../assets/menu/items/chicken_p5_6.jpg' },
+        { id: 'c_13', title: 'شيش طاووق', desc: 'شيش طاووق بوصفة برو هاوس الغنية بالبروتين.', price: 27.00, calories: '444 سعرة', protein: '48g بروتين', carbs: '45g كارب', fat: '8g دهون', img: '../assets/menu/items/chicken_p6_1.jpg' },
+        { id: 'c_14', title: 'دجاج بوبيت', desc: 'رول دجاج بصوص مميز وتجربة راقية ومذاق لا ينسى.', price: 27.00, calories: '433 سعرة', protein: '44g بروتين', carbs: '45g كارب', fat: '8.5g دهون', img: '../assets/menu/items/chicken_p6_2.jpg' },
+        { id: 'c_15', title: 'دجاج بخاري', desc: 'قطع دجاج لذيذة محضرة على الطريقة البخارية الخاصة.', price: 27.00, calories: '435 سعرة', protein: '48g بروتين', carbs: '45g كارب', fat: '8g دهون', img: '../assets/menu/items/chicken_p6_3.jpg' },
+        { id: 'c_16', title: 'دجاج تيكا', desc: 'دجاج بنكهة التوابل الهندية الحارة الأصيلة.', price: 27.00, calories: '435 سعرة', protein: '48g بروتين', carbs: '45g كارب', fat: '8g دهون', img: '../assets/menu/items/chicken_p6_4.jpg' },
+        { id: 'c_17', title: 'تندرز مع الودجز', desc: 'قطع دجاج مقرمشة ومتبلة تقدم مع بطاطس ودجز مشوية.', price: 28.00, calories: '433 سعرة', protein: '44g بروتين', carbs: '45g كارب', fat: '8.5g دهون', img: '../assets/menu/items/beef_tenders.jpg' }
+      ]
+    },
+    {
+      id: 'cat_beef',
+      name: 'وجبات اللحم البقري',
+      items: [
+        { id: 'b_01', title: 'ستيك برو هاوس', desc: 'ستيك تندرلوين فاخر مشوي بلمسة مثالية مع صوص برو هاوس المميز.', price: 39.00, calories: '437 سعرة', protein: '47g بروتين', carbs: '42g كارب', fat: '9g دهون', img: '../assets/menu/items/beef_beef_1.jpg' },
+        { id: 'b_02', title: 'داوود باشا', desc: 'كرات لحم مطبوخة بصوص التوتال وأفضل التوابل.', price: 36.00, calories: '465 سعرة', protein: '45g بروتين', carbs: '42g كارب', fat: '13g دهون', img: '../assets/menu/items/beef_beef_2.jpg' },
+        { id: 'b_03', title: 'بيف ستروجانوف', desc: 'شرائح لحم بيف طري مطبوخ بصوص ستروجانوف الغني.', price: 36.00, calories: '465 سعرة', protein: '45g بروتين', carbs: '42g كارب', fat: '13g دهون', img: '../assets/menu/items/beef_beef_3.jpg' },
+        { id: 'b_04', title: 'باربكيو ستيك', desc: 'ستيك تندرلوين مشوي ومغطى بصوص الباربكيو المدخن.', price: 39.00, calories: '437 سعرة', protein: '47g بروتين', carbs: '42g كارب', fat: '9g دهون', img: '../assets/menu/items/beef_beef_4.jpg' }
+      ]
+    },
+    {
+      id: 'cat_seafood',
+      name: 'المأكولات البحرية والسالمون',
+      items: [
+        { id: 'sea_01', title: 'سالمون سبيشال', desc: 'أجود أنواع السالمون محضر مع الخضار والتوابل الشهية.', price: 43.00, calories: '352 سعرة', protein: '40g بروتين', carbs: '10g كارب', fat: '16g دهون', img: '../assets/menu/items/seafood_p8_1.jpg' },
+        { id: 'sea_02', title: 'سالمون مشوي', desc: 'سالمون مشوي متبل بأشهى التوابل والأعشاب.', price: 40.00, calories: '462 سعرة', protein: '42g بروتين', carbs: '42g كارب', fat: '14g دهون', img: '../assets/menu/items/seafood_p8_2.jpg' },
+        { id: 'sea_03', title: 'فيليه سمك كلاسيك', desc: 'فيليه سمك مشوي بخلطة الفلفل والليمون السحرية.', price: 27.00, calories: '377 سعرة', protein: '41g بروتين', carbs: '42g كارب', fat: '5g دهون', img: '../assets/menu/items/seafood_p8_3.jpg' },
+        { id: 'sea_04', title: 'بلانكو سالمون', desc: 'سالمون فاخر مغطى بصوص كريمي لذيذ وخضار سوتيه.', price: 34.60, calories: '506 سعرة', protein: '42g بروتين', carbs: '44g كارب', fat: '18g دهون', img: '../assets/menu/items/seafood_p8_4.jpg' },
+        { id: 'sea_05', title: 'جمبري مشوي', desc: 'جمبري مشوي بوصفة سرية لوجبة بحرية فاخرة.', price: 39.00, calories: '234 سعرة', protein: '39g بروتين', carbs: '44g كارب', fat: '3g دهون', img: '../assets/menu/items/seafood_p8_5.jpg' },
+        { id: 'sea_06', title: 'فيليه سمك سبيشال', desc: 'فيليه سمك محضر بخلطة الشيف الخاصة من الخضار والبهارات.', price: 29.00, calories: '425 سعرة', protein: '41g بروتين', carbs: '45g كارب', fat: '9g دهون', img: '../assets/menu/items/seafood_p8_6.jpg' },
+        { id: 'sea_07', title: 'تيبينياكي جمبري', desc: 'جمبري ذهبي بصوص التمبورا الياباني الرائع مع الخضار.', price: 39.00, calories: '369 سعرة', protein: '39g بروتين', carbs: '42g كارب', fat: '5g دهون', img: '../assets/menu/items/pasta_p9_1.jpg' },
+        { id: 'sea_08', title: 'جمبري بروفنسال', desc: 'جمبري متبل على الطريقة الفرنسية الأنيقة مع الخضار والأعشاب.', price: 39.00, calories: '369 سعرة', protein: '39g بروتين', carbs: '42g كارب', fat: '5g دهون', img: '../assets/menu/items/pasta_p9_2.jpg' }
+      ]
+    },
+    {
+      id: 'cat_pasta',
+      name: 'المكرونة والباستا والأطباق الخاصة',
+      items: [
+        { id: 'pas_01', title: 'باستا الصوص الوردي (Pink Sauce)', desc: 'باستا مطبوخة بصوص وردي مع صدر دجاج متبل ونكهة غنية.', price: 27.00, calories: '444 سعرة', protein: '48g بروتين', carbs: '45g كارب', fat: '8g دهون', img: '../assets/menu/items/chicken_p6_5.jpg' },
+        { id: 'pas_02', title: 'تشيكن ألفريدو', desc: 'باستا بالصوص الأبيض وصدر دجاج متبل ومذاق كريمي لذيذ.', price: 27.00, calories: '444 سعرة', protein: '48g بروتين', carbs: '45g كارب', fat: '8g دهون', img: '../assets/menu/items/chicken_p6_6.jpg' },
+        { id: 'pas_03', title: 'باستا بالبشاميل', desc: 'بشاميل باللحم غني بالبروتين مصنوع من مكرونة الحبوب الكاملة.', price: 20.00, calories: '439 سعرة', protein: '28g بروتين', carbs: '48g كارب', fat: '15g دهون', img: '../assets/menu/items/pasta_p9_3.jpg' },
+        { id: 'pas_04', title: 'كانيلوني باللحم', desc: 'باستا إيطالية فاخرة محشوة بلحم تندرلوين وصوصنا الخاص.', price: 20.00, calories: '403 سعرة', protein: '32g بروتين', carbs: '44g كارب', fat: '11g دهون', img: '../assets/menu/items/pasta_p9_4.jpg' },
+        { id: 'pas_05', title: 'لازانيا اللحم', desc: 'لازانيا لحم بطبقات الباستا وصوص الطماطم الغني وجبنة لايت.', price: 20.00, calories: '369 سعرة', protein: '30g بروتين', carbs: '42g كارب', fat: '6g دهون', img: '../assets/menu/items/pasta_p9_5.jpg' },
+        { id: 'pas_06', title: 'بوم جاك', desc: 'بطاطس مخبوزة مغطاة بلحم تندرلوين وجبنة ذائبة.', price: 20.00, calories: '354 سعرة', protein: '33g بروتين', carbs: '42g كارب', fat: '6g دهون', img: '../assets/menu/items/pasta_p9_6.jpg' },
+        { id: 'pas_07', title: 'مسقعة برو هاوس الصحية', desc: 'طبقات باذنجان بصوص الطماطم المتبل والمخبوز بدون دهون زائدة.', price: 11.00, calories: 'خفيفة وصحية', protein: '150g حصة', carbs: 'باذنجان مشوي', fat: 'قليلة الزيوت', img: '../assets/menu/items/dessert_p10_musqiea.jpg' }
+      ]
+    },
+    {
+      id: 'cat_desserts',
+      name: 'الحلويات الصحية',
+      items: [
+        { id: 'des_01', title: 'معصوب برو هاوس', desc: 'معصوب بالقشطة اللايت وطعم لذيذ وسعرات خفيفة.', price: 15.00, calories: '318 سعرة', protein: '10g بروتين', carbs: '40g كارب', fat: '10g دهون', img: '../assets/menu/items/dessert_p10_des_1.jpg' },
+        { id: 'des_02', title: 'عريكة برو هاوس', desc: 'عريكة صحية من أجود أنواع التمور خالية من السكر والسمن.', price: 15.00, calories: '289 سعرة', protein: '10g بروتين', carbs: '42g كارب', fat: '9g دهون', img: '../assets/menu/items/dessert_p10_des_2.jpg' },
+        { id: 'des_03', title: 'جلاش بالكاسترد', desc: 'طبقات ذهبية من الجلاش محشوة بكاسترد كريمي لايت.', price: 9.00, calories: 'حلى صحي', protein: 'قليل السكر', carbs: 'كاسترد لايت', fat: 'خفيف', img: '../assets/menu/items/dessert_p10_des_3.jpg' },
+        { id: 'des_04', title: 'كنافة بالقشطة', desc: 'كنافة ذهبية مقرمشة محشوة بقشطة طازجة قليلة الدسم.', price: 9.00, calories: 'قشطة لايت', protein: 'طازجة يومياً', carbs: 'مقرمشة', fat: 'خفيفة', img: '../assets/menu/items/dessert_p10_des_4.jpg' },
+        { id: 'des_05', title: 'كوكيز صحي', desc: 'كوكيز برقائق الشوكولاتة الصحية وقليلة السكر.', price: 7.00, calories: '176 سعرة', protein: '5g بروتين', carbs: '23g كارب', fat: '7g دهون', img: '../assets/menu/items/dessert_p11_1.jpg' },
+        { id: 'des_06', title: 'براونيز بروتين', desc: 'براونيز غني بالشوكولاتة الداكنة وقليل السعرات.', price: 9.00, calories: '250 سعرة', protein: '6g بروتين', carbs: '21g كارب', fat: '10g دهون', img: '../assets/menu/items/dessert_p11_2.jpg' },
+        { id: 'des_07', title: 'مهلبية بالمكسرات', desc: 'مهلبية صحية خفيفة مغطاة بالفستق.', price: 8.00, calories: 'حلى خفيف', protein: 'حليب قليل الدسم', carbs: 'سكر خفيف', fat: 'فستق طازج', img: '../assets/menu/items/dessert_p11_3.jpg' },
+        { id: 'des_08', title: 'أم علي برو هاوس', desc: 'أم علي بالحليب والمكسرات محضرة بأسلوبنا الصحي.', price: 12.00, calories: 'دافئة ولذيذة', protein: 'مكسرات وحليب', carbs: 'رقائق خفيفة', fat: 'لايت', img: '../assets/menu/items/dessert_p11_4.jpg' },
+        { id: 'des_09', title: 'كاسترد بالمكسرات', desc: 'كاسترد كريمي مغطى بالفستق والمكسرات.', price: 8.00, calories: 'حلى كاسترد', protein: 'مكسرات', carbs: 'قليل السكر', fat: 'خفيف', img: '../assets/menu/items/dessert_p11_5.jpg' },
+        { id: 'des_10', title: 'أرز بالحليب (Rice Pudding)', desc: 'أرز بحليب بنكهة مميزة وطعم فريد وخفيف.', price: 8.00, calories: 'طبيعي ولذيذ', protein: 'حليب طازج', carbs: 'أرز خفيف', fat: 'قليل الدسم', img: '../assets/menu/items/dessert_p11_6.jpg' },
+        { id: 'des_11', title: 'سينابون صحي', desc: 'رول قرفة طري ومصنوع من مكونات صحية ونظيفة.', price: 15.00, calories: 'قرفة طبيعية', protein: 'عجينة بر', carbs: 'صوص لايت', fat: 'قليل الزبدة', img: '../assets/menu/items/dessert_p12_cinnabon.jpg' },
+        { id: 'des_12', title: 'بودينغ الشوكولاتة', desc: 'بودينغ شوكولاتة ناعم وغني بنكهة الشوكولاتة اللذيذة.', price: 8.00, calories: 'شوكولاتة داكنة', protein: 'حليب لايت', carbs: 'قليل السكر', fat: 'خفيف', img: '../assets/menu/items/dessert_p12_choc_pudding.jpg' }
+      ]
+    },
+    {
+      id: 'cat_drinks',
+      name: 'المشروبات والقهوة',
+      items: [
+        { id: 'drk_01', title: 'قهوة اليوم (بارد / حار)', desc: 'قهوة سوداء طازجة ومقطرة يومياً.', price: 9.00, calories: '5 سعرة', protein: '0g', carbs: '0g', fat: '0g', img: '../assets/menu/items/wrap_1.jpg' },
+        { id: 'drk_02', title: 'آيس V60 مقطرة', desc: 'قهوة مختصة مقطرة بأجود حبوب البن.', price: 14.00, calories: '5 سعرة', protein: '0g', carbs: '0g', fat: '0g', img: '../assets/menu/items/wrap_2.jpg' },
+        { id: 'drk_03', title: 'آيس سبانش لاتيه', desc: 'لاتيه مثلج بحليب قليل الدسم ونكهة سبانش خفيفة.', price: 13.00, calories: '120 سعرة', protein: '6g', carbs: '18g', fat: '3g', img: '../assets/menu/items/wrap_3.jpg' },
+        { id: 'drk_04', title: 'ماتشا يابانية مثلجة', desc: 'ماتشا عضوية طازجة غنية بمضادات الأكسدة.', price: 14.00, calories: '90 سعرة', protein: '4g', carbs: '12g', fat: '2g', img: '../assets/menu/items/wrap_4.jpg' },
+        { id: 'drk_05', title: 'كركديه مثلج منعش', desc: 'عصير كركديه بارد وطبيعي ١٠٠٪ خالي من السكر المضاف.', price: 10.00, calories: '35 سعرة', protein: '0g', carbs: '8g', fat: '0g', img: '../assets/menu/items/wrap_5.jpg' },
+        { id: 'drk_06', title: 'موهيتو ليمون ونعناع', desc: 'موهيتو منعش خالي من السكر مع صودا وليمون ونعناع طازج.', price: 12.00, calories: '25 سعرة', protein: '0g', carbs: '6g', fat: '0g', img: '../assets/menu/items/wrap_6.jpg' }
       ]
     }
-  ]
-}
+  ];
+
+  let cart = [];
+  let currentOrderType = 'pickup';
+  const engine = new FoodicsOrderingEngine();
+
+  function renderApp() {
+    renderCategoryNav();
+    renderMenuFeed();
+    updateCartUI();
+  }
+
+  function renderCategoryNav() {
+    const mobilePills = document.getElementById('cat-pills-mobile');
+    const desktopNav = document.getElementById('cat-nav-desktop');
+    mobilePills.innerHTML = '';
+    desktopNav.innerHTML = '';
+
+    FULL_PROHOUSE_MENU.forEach((cat, idx) => {
+      // Mobile pill
+      const p = document.createElement('a');
+      p.href = '#' + cat.id;
+      p.className = 'flex-shrink-0 px-4 py-1.5 rounded-full text-xs font-bold transition ' +
+        (idx === 0 ? 'bg-brand-dark text-brand-yellow font-black' : 'bg-gray-100 text-gray-700 hover:bg-gray-200');
+      p.textContent = cat.name;
+      mobilePills.appendChild(p);
+
+      // Desktop link
+      const li = document.createElement('li');
+      li.innerHTML = `
+        <a href="#${cat.id}" class="block px-3 py-2 rounded-xl text-xs font-bold text-gray-600 hover:bg-brand-cream hover:text-brand-dark transition">
+          ${cat.name}
+        </a>
+      `;
+      desktopNav.appendChild(li);
+    });
+  }
+
+  function renderMenuFeed() {
+    const feed = document.getElementById('menu-feed');
+    feed.innerHTML = '';
+
+    FULL_PROHOUSE_MENU.forEach(cat => {
+      const section = document.createElement('section');
+      section.id = cat.id;
+      section.className = 'scroll-mt-32';
+
+      let itemsHtml = '';
+      cat.items.forEach(item => {
+        itemsHtml += `
+          <article class="flex flex-row justify-between items-center gap-4 bg-white border border-gray-200/80 rounded-2xl p-4 shadow-2xs hover:shadow-md hover:border-brand-yellow transition">
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 mb-1">
+                <h3 class="font-extrabold text-base text-gray-900 leading-snug">${item.title}</h3>
+              </div>
+              <div class="flex flex-wrap gap-1.5 mb-2">
+                <span class="bg-brand-cream border border-brand-yellow/50 text-brand-dark font-extrabold text-[10px] px-2 py-0.5 rounded-md">${item.protein}</span>
+                <span class="bg-gray-100 text-gray-600 font-bold text-[10px] px-2 py-0.5 rounded-md">${item.calories}</span>
+                ${item.carbs ? `<span class="bg-gray-100 text-gray-500 font-medium text-[10px] px-2 py-0.5 rounded-md hidden sm:inline">${item.carbs}</span>` : ''}
+              </div>
+              <p class="text-gray-500 text-xs leading-relaxed line-clamp-2 mb-3">${item.desc}</p>
+              
+              <div class="flex items-center gap-3">
+                <div class="font-display font-black text-lg text-gray-900">${item.price.toFixed(2)} <span class="font-sans text-xs text-gray-500 font-normal">﷼</span></div>
+                <button onclick="addToCart('${item.id}')" class="border-2 border-brand-yellow bg-brand-yellow/10 hover:bg-brand-yellow text-brand-dark px-4 py-1.5 rounded-xl text-xs font-black transition">
+                  + أضف
+                </button>
+              </div>
+            </div>
+
+            <div class="w-24 h-24 sm:w-28 sm:h-28 lg:w-32 lg:h-32 flex-shrink-0 relative overflow-hidden bg-gray-50 rounded-xl border border-gray-100">
+              <img src="${item.img}" alt="${item.title} من برو هاوس" loading="lazy" class="object-cover h-full w-full hover:scale-105 transition-transform duration-300">
+            </div>
+          </article>
+        `;
+      });
+
+      section.innerHTML = `
+        <div class="border-b-2 border-gray-200 pb-2 mb-4">
+          <h2 class="font-black text-xl text-gray-900">${cat.name}</h2>
+        </div>
+        <div class="space-y-3">${itemsHtml}</div>
+      `;
+
+      feed.appendChild(section);
+    });
+  }
+
+  function addToCart(itemId) {
+    let found = null;
+    for (const cat of FULL_PROHOUSE_MENU) {
+      const it = cat.items.find(i => i.id === itemId);
+      if (it) { found = it; break; }
+    }
+    if (!found) return;
+
+    const existing = cart.find(i => i.id === itemId);
+    if (existing) {
+      existing.quantity += 1;
+    } else {
+      cart.push({
+        id: found.id,
+        title: found.title,
+        unitPrice: found.price,
+        quantity: 1
+      });
+    }
+
+    updateCartUI();
+  }
+
+  function updateQuantity(itemId, delta) {
+    const item = cart.find(i => i.id === itemId);
+    if (!item) return;
+    item.quantity += delta;
+    if (item.quantity <= 0) {
+      cart = cart.filter(i => i.id !== itemId);
+    }
+    updateCartUI();
+  }
+
+  function clearCart() {
+    cart = [];
+    updateCartUI();
+  }
+
+  function updateCartUI() {
+    const count = cart.reduce((s, i) => s + i.quantity, 0);
+    const subtotal = cart.reduce((s, i) => s + (i.unitPrice * i.quantity), 0);
+    const tax = subtotal * 0.15;
+    const total = subtotal + tax;
+
+    // Badges & Counters
+    document.getElementById('nav-cart-count').textContent = count;
+    document.getElementById('cart-badge-count').textContent = count + ' أصناف';
+    document.getElementById('mobile-cart-badge').textContent = count;
+
+    // Prices
+    document.getElementById('cart-subtotal-desk').textContent = subtotal.toFixed(2) + ' ﷼';
+    document.getElementById('cart-tax-desk').textContent = tax.toFixed(2) + ' ﷼';
+    document.getElementById('cart-total-desk').textContent = total.toFixed(2) + ' ﷼';
+    document.getElementById('mobile-cart-total-bar').textContent = total.toFixed(2) + ' ﷼';
+    document.getElementById('mobile-drawer-total').textContent = total.toFixed(2) + ' ﷼';
+
+    // Mobile Bottom Bar Visibility
+    const bar = document.getElementById('mobile-bottom-bar');
+    if (count > 0) {
+      bar.classList.remove('hidden');
+    } else {
+      bar.classList.add('hidden');
+    }
+
+    // Render list for Desktop
+    const deskList = document.getElementById('cart-items-desktop');
+    const mobileList = document.getElementById('cart-items-mobile');
+
+    if (cart.length === 0) {
+      const emptyHtml = `
+        <div class="text-center py-10 text-gray-400">
+          <span class="text-3xl block mb-2">🥗</span>
+          <p class="font-bold text-xs">سلتك فارغة</p>
+          <p class="text-[11px] text-gray-400">اختر وجبتك المفضلة من المنيو لإضافتها</p>
+        </div>
+      `;
+      deskList.innerHTML = emptyHtml;
+      mobileList.innerHTML = emptyHtml;
+      return;
+    }
+
+    let itemsHtml = '';
+    cart.forEach(item => {
+      itemsHtml += `
+        <div class="flex items-center justify-between gap-2 bg-gray-50 border border-gray-200 rounded-xl p-2.5">
+          <div class="flex-1 min-w-0">
+            <h4 class="font-bold text-xs text-gray-900 truncate">${item.title}</h4>
+            <p class="text-[11px] text-gray-500">${item.unitPrice.toFixed(2)} ﷼</p>
+          </div>
+          <div class="flex items-center gap-2 bg-white border border-gray-200 rounded-lg px-2 py-0.5">
+            <button onclick="updateQuantity('${item.id}', -1)" class="text-gray-500 hover:text-red-600 font-bold text-sm">">−</button>
+            <span class="font-bold text-xs">${item.quantity}</span>
+            <button onclick="updateQuantity('${item.id}', 1)" class="text-gray-500 hover:text-black font-bold text-sm">+</button>
+          </div>
+          <span class="font-black text-xs min-w-[50px] text-left">${(item.unitPrice * item.quantity).toFixed(2)} ﷼</span>
+        </div>
+      `;
+    });
+
+    deskList.innerHTML = itemsHtml;
+    mobileList.innerHTML = itemsHtml;
+  }
+
+  function toggleMobileCart() {
+    const mask = document.getElementById('mobile-cart-backdrop');
+    const drawer = document.getElementById('mobile-cart-drawer');
+    const isClosed = drawer.classList.contains('-translate-x-full');
+
+    if (isClosed) {
+      drawer.classList.remove('-translate-x-full');
+      mask.classList.remove('opacity-0', 'pointer-events-none');
+      mask.classList.add('opacity-100');
+    } else {
+      drawer.classList.add('-translate-x-full');
+      mask.classList.add('opacity-0', 'pointer-events-none');
+      mask.classList.remove('opacity-100');
+    }
+  }
+
+  function setOrderType(type) {
+    currentOrderType = type;
+    const btnP = document.getElementById('btn-pickup');
+    const btnD = document.getElementById('btn-delivery');
+    if (type === 'pickup') {
+      btnP.className = 'px-3 py-1 rounded-md transition font-bold bg-white text-gray-900 shadow-xs';
+      btnD.className = 'px-3 py-1 rounded-md transition font-bold text-gray-500 hover:text-gray-900';
+    } else {
+      btnD.className = 'px-3 py-1 rounded-md transition font-bold bg-white text-gray-900 shadow-xs';
+      btnP.className = 'px-3 py-1 rounded-md transition font-bold text-gray-500 hover:text-gray-900';
+    }
+  }
+
+  async function submitOrder() {
+    if (cart.length === 0) {
+      alert('الرجاء إضافة أصناف إلى السلة أولاً');
+      return;
+    }
+
+    const name = document.getElementById('cust-name-desk').value.trim() || 'عميل برو هاوس';
+    const phone = document.getElementById('cust-phone-desk').value.trim() || '0555123456';
+    const branch = document.getElementById('branch-select').value;
+
+    const btn = document.getElementById('btn-submit-desk');
+    btn.disabled = true;
+    btn.innerHTML = '<span>جارٍ الإرسال لكاشير فودكس... ⏳</span>';
+
+    const result = await engine.submitOrder(cart, { name, phone }, currentOrderType, branch);
+
+    btn.disabled = false;
+    btn.innerHTML = '<span>إرسال الطلب لكاشير فودكس</span>';
+
+    if (result.success) {
+      const mobileDrawer = document.getElementById('mobile-cart-drawer');
+      if (!mobileDrawer.classList.contains('-translate-x-full')) {
+        toggleMobileCart();
+      }
+      showReceiptModal(result);
+    } else {
+      alert('حدث خطأ: ' + result.error);
+    }
+  }
+
+  function showReceiptModal(result) {
+    const modal = document.getElementById('receipt-modal');
+    const branchName = document.getElementById('branch-select').selectedOptions[0].text;
+
+    document.getElementById('rcpt-ref').textContent = result.referenceNumber;
+    document.getElementById('rcpt-branch').textContent = branchName;
+    document.getElementById('rcpt-time').textContent = new Date().toLocaleString('ar-SA');
+
+    const itemsContainer = document.getElementById('rcpt-items-list');
+    let html = '';
+    cart.forEach(item => {
+      html += `
+        <div class="flex justify-between py-0.5 border-b border-gray-100 last:border-0">
+          <span>${item.quantity}x ${item.title}</span>
+          <span class="font-bold">${(item.unitPrice * item.quantity).toFixed(2)} ﷼</span>
+        </div>
+      `;
+    });
+    itemsContainer.innerHTML = html;
+
+    const subtotal = cart.reduce((s, i) => s + (i.unitPrice * i.quantity), 0);
+    const total = subtotal * 1.15;
+    document.getElementById('rcpt-total').textContent = total.toFixed(2) + ' ﷼';
+
+    modal.classList.remove('hidden');
+  }
+
+  function closeReceiptModal() {
+    document.getElementById('receipt-modal').classList.add('hidden');
+    clearCart();
+  }
+
+  // تشغيل الصفحة عند التحميل
+  renderApp();
 </script>
 </body>
 </html>
